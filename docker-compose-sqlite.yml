@@ -1,0 +1,11 @@
+version: '2.21'
+services:
+  webapp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: webapp
+    ports:
+      - "3000:3000"
+    volumes:
+      - /vagrant/webapp/database:/app/database
