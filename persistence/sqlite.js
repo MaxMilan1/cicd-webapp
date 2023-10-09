@@ -1,6 +1,8 @@
-import fs from "node:fs";
+import fs from 'node:fs';
 import sqlite3 from "sqlite3"
-import { open } from "sqlite";
+import {
+  open
+} from "sqlite";
 import Boom from "@hapi/boom";
 import generateFakeData from "./generateFakeData.js";
 
