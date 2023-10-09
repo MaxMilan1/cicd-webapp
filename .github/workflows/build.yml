@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: 18
 
-      - name: Install Dependencies
+      - name: Install Dependencies 2
         run: yarn install
 
       - name: Run Linting
