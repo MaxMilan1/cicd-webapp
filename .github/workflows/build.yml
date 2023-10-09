@@ -35,3 +35,6 @@ jobs:
           file: ./Dockerfile
           tags: maxmilan1/webapp:latest
           push: true
+
+      - name: Run Tests
+        run: yarn test test.spec.js
